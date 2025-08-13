@@ -9,7 +9,7 @@ class MainApp(tk.Tk):
 		super().__init__()
 		
 		self.title("Tkinter tabbed application template")
-		self.geometry('640x480')
+		self.state('zoomed')
 
 		self.notebook = ttk.Notebook(self)
 		
